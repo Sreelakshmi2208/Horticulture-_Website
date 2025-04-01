@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price List - MSP Horticulture Crops</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MSP Horticulture</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prices.html" class="active">Price List</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Search Crops</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for fruits or vegetables...">
+                <button onclick="searchCrops()">Search</button>
+            </div>
+        </section>
+
+        <section class="crops-display">
+            <div id="searchResults"></div>
+            <div class="crops-grid" id="cropsGrid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MSP Horticulture. All rights reserved.</p>
+    </footer>
+    <script src="js/crops.js"></script>
+</body>
+</html>
