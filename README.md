@@ -8,8 +8,6 @@ This project is a web-based platform that provides information about the Minimum
 
 📌 Live Updates: Displays the latest MSP for different horticultural crops.
 
-📊 Data Visualization: Graphs and charts to analyze MSP trends over time.
-
 🌍 Region-Wise Information: Get MSP details specific to different states and regions.
 
 🔎 Search & Filter: Easily find MSP data for specific crops.
